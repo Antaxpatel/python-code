@@ -1,0 +1,15 @@
+import QtQuick 6
+import QtQuick.Controls 6
+import QtQuick.Controls.Material 6
+
+ApplicationWindow {
+    visible: true
+    width: 400
+    height: 300
+    title: "Material Check"
+    Material.theme: Material.Dark
+
+    Button {
+        text: "Test Button"
+    }
+}
